@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
             return const Center(child: CircularProgressIndicator());
           }
           if (snapshot.hasData) {
-            // FirebaseAuth.instance.signOut();
+            FirebaseAuth.instance.signOut();
             debugPrint(FirebaseAuth.instance.currentUser!.uid);
             return const ResponsiveLayout(
                 webScreenLayout: WebScreenLayout(),
