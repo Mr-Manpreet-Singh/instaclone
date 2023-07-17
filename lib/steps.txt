@@ -1,0 +1,13 @@
+Whats next 
+
+-get data once then show in mobile and Web .. this is statemanagement
+- create a function in user model to convert js data to user
+- He is using provider for the same along with the listners 
+- To add listners he is wraping material app with MultiProvider and passing providers
+ Syntax ChangeNotifireProvider(create: (_)=> UserProvider(),),
+ -- screen shots in whatsapp
+
+ -- Ui bottom navigth barr // iso style, background: mobile, active white
+ -- page view and page controller
+ 
+
